@@ -20,8 +20,8 @@ function AccordionItem({question,answer,index,indexCurrent,setIndexCurrent}:Prop
 
     return (
         <li class='block border-t border-t-grayMain/10 py-4'>
-            <button onClick={handleClick} class='flex items-center justify-between w-full'>
-                <p class='text-base text-left font-bold leading-5'>
+            <button onClick={handleClick} class='flex items-center justify-between w-full transition-colors text-darkMain hover:text-pinkSecundary'>
+                <p class='text-base text-left font-bold leading-5 '>
                     {question}
                 </p>
                 <div>
@@ -32,7 +32,7 @@ function AccordionItem({question,answer,index,indexCurrent,setIndexCurrent}:Prop
                 index === indexCurrent && (
 
                     <div class='pt-4'>
-                        <p class='text-grayMain text-pretty'>
+                        <p class='text-grayMain text-balance'>
                             {answer}
                         </p>
                     </div>

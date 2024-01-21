@@ -10,7 +10,8 @@ export default {
 				whiteMain:'hsl(0, 0%, 100%)',
 				pinkMain:'hsl(275, 100%, 97%)',
 				grayMain:'hsl(292, 16%, 49%)',
-				darkMain:'hsl(292, 42%, 14%)'
+				darkMain:'hsl(292, 42%, 14%)',
+				pinkSecundary:'#AD28EB'
 				
 			},
 			boxShadow:{
