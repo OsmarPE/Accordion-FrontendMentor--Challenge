@@ -1,4 +1,6 @@
-const Plus = (props) => (
+import type { SVGProps } from "preact/compat"
+
+const Plus = (props:SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={30}
